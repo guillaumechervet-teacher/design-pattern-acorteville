@@ -1,0 +1,17 @@
+D:\projetrider\design-pattern-acorteville\src\Basket\BasketTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\projetrider\design-pattern-acorteville\src\Basket\BasketTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\projetrider\design-pattern-acorteville\src\Basket\BasketTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\projetrider\design-pattern-acorteville\src\Basket\BasketTest\bin\Debug\netcoreapp2.0\BasketTest.deps.json
+D:\projetrider\design-pattern-acorteville\src\Basket\BasketTest\bin\Debug\netcoreapp2.0\BasketTest.runtimeconfig.json
+D:\projetrider\design-pattern-acorteville\src\Basket\BasketTest\bin\Debug\netcoreapp2.0\BasketTest.runtimeconfig.dev.json
+D:\projetrider\design-pattern-acorteville\src\Basket\BasketTest\bin\Debug\netcoreapp2.0\BasketTest.dll
+D:\projetrider\design-pattern-acorteville\src\Basket\BasketTest\bin\Debug\netcoreapp2.0\BasketTest.pdb
+D:\projetrider\design-pattern-acorteville\src\Basket\BasketTest\bin\Debug\netcoreapp2.0\Basket.dll
+D:\projetrider\design-pattern-acorteville\src\Basket\BasketTest\bin\Debug\netcoreapp2.0\Basket.pdb
+D:\projetrider\design-pattern-acorteville\src\Basket\BasketTest\obj\Debug\netcoreapp2.0\BasketTest.csproj.CoreCompileInputs.cache
+D:\projetrider\design-pattern-acorteville\src\Basket\BasketTest\obj\Debug\netcoreapp2.0\BasketTest.AssemblyInfoInputs.cache
+D:\projetrider\design-pattern-acorteville\src\Basket\BasketTest\obj\Debug\netcoreapp2.0\BasketTest.AssemblyInfo.cs
+D:\projetrider\design-pattern-acorteville\src\Basket\BasketTest\obj\Debug\netcoreapp2.0\BasketTest.csproj.CopyComplete
+D:\projetrider\design-pattern-acorteville\src\Basket\BasketTest\obj\Debug\netcoreapp2.0\BasketTest.dll
+D:\projetrider\design-pattern-acorteville\src\Basket\BasketTest\obj\Debug\netcoreapp2.0\BasketTest.pdb
+D:\projetrider\design-pattern-acorteville\src\Basket\BasketTest\bin\Debug\netcoreapp2.0\article-database.json
