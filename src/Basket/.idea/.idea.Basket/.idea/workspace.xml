@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4ba4cf4-2802-47c6-89cc-06c733043eba" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Basket/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Basket/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Basket/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Basket/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Basket/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basket/ArticleDatabase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basket/BasketLineArticle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basket/ImperativeProgramming.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basket/article-database.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BasketTest/BasketOperation_CalculateBasketAmoutShould.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basket/BasketOperation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basket/OrientedObject/Domain/Article.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basket/OrientedObject/Domain/Basket.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basket/OrientedObject/Domain/BasketLine.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basket/OrientedObject/Infrastucture/ArticleDatabaseJson.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basket/OrientedObject/Infrastucture/BasketService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Basket/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Basket/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Basket/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Basket/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasketTest/BasketOperation_CalculateBasketAmoutShould.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BasketTest/BasketOperation_CalculateBasketAmoutShould.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,37 +21,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UnitTest1.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BasketTest/UnitTest1.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-              <folding>
-                <marker date="1525441828195" expanded="true" signature="118:205" ph="{...}" />
-                <marker date="1525441828195" expanded="true" signature="179:199" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArticleDatabase.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Basket/ArticleDatabase.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-              <folding>
-                <marker date="1525442785886" expanded="true" signature="39:292" ph="{...}" />
-                <marker date="1525442785886" expanded="true" signature="74:290" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
+      <file leaf-file-name="article-database.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Basket/article-database.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="BasketLineArticle.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Basket/BasketLineArticle.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+            <state relative-caret-position="30">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
               <folding>
                 <marker date="1525442895069" expanded="true" signature="16:188" ph="{...}" />
                 <marker date="1525442895069" expanded="true" signature="53:186" ph="{...}" />
@@ -61,28 +39,105 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasketOperation_CalculateBasketAmoutShould.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BasketOperation_CalculateBasketAmoutShould.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BasketTest/BasketOperation_CalculateBasketAmoutShould.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="77" column="31" lean-forward="true" selection-start-line="77" selection-start-column="31" selection-end-line="77" selection-end-column="31" />
+            <state relative-caret-position="240">
+              <caret line="66" column="52" selection-start-line="66" selection-start-column="52" selection-end-line="66" selection-end-column="52" />
               <folding>
-                <marker date="1527754482812" expanded="false" signature="6:197" ph="..." />
-                <marker date="1527754482812" expanded="true" signature="219:3563" ph="{...}" />
-                <marker date="1527754482812" expanded="true" signature="297:3561" ph="{...}" />
-                <marker date="1527754482812" expanded="true" signature="336:484" ph="{...}" />
-                <marker date="1527754482812" expanded="true" signature="538:1879" ph="{...}" />
-                <marker date="1527754482812" expanded="true" signature="564:1869" ph="{...}" />
-                <marker date="1527754482812" expanded="true" signature="624:1854" ph="{...}" />
-                <marker date="1527754482812" expanded="true" signature="679:1283" ph="{...}" />
-                <marker date="1527754482812" expanded="true" signature="746:1260" ph="{...}" />
-                <marker date="1527754482812" expanded="true" signature="853:1183" ph="{...}" />
-                <marker date="1527754482812" expanded="true" signature="1338:1835" ph="{...}" />
-                <marker date="1527754482812" expanded="true" signature="1405:1812" ph="{...}" />
-                <marker date="1527754482812" expanded="true" signature="1512:1735" ph="{...}" />
-                <marker date="1527754482812" expanded="true" signature="2007:3555" ph="{...}" />
-                <marker date="1527754482812" expanded="true" signature="2127:3477" ph="{...}" />
-                <marker date="1527754482812" expanded="true" signature="2909:3378" ph="{...}" />
+                <marker date="1527858042336" expanded="false" signature="6:240" ph="..." />
+                <marker date="1527858042336" expanded="true" signature="262:2370" ph="{...}" />
+                <marker date="1527858042336" expanded="true" signature="340:2368" ph="{...}" />
+                <marker date="1527858042336" expanded="true" signature="379:527" ph="{...}" />
+                <marker date="1527858042336" expanded="true" signature="581:1922" ph="{...}" />
+                <marker date="1527858042336" expanded="true" signature="607:1912" ph="{...}" />
+                <marker date="1527858042336" expanded="true" signature="667:1897" ph="{...}" />
+                <marker date="1527858042336" expanded="true" signature="722:1326" ph="{...}" />
+                <marker date="1527858042336" expanded="true" signature="789:1303" ph="{...}" />
+                <marker date="1527858042336" expanded="true" signature="896:1226" ph="{...}" />
+                <marker date="1527858042336" expanded="true" signature="1381:1878" ph="{...}" />
+                <marker date="1527858042336" expanded="true" signature="1448:1855" ph="{...}" />
+                <marker date="1527858042336" expanded="true" signature="1555:1778" ph="{...}" />
+                <marker date="1527858042336" expanded="true" signature="2058:2362" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasketService.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Basket/OrientedObject/Infrastucture/BasketService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+              <folding>
+                <marker date="1527866024208" expanded="true" signature="6:54" ph="..." />
+                <marker date="1527866024208" expanded="true" signature="101:713" ph="{...}" />
+                <marker date="1527866024208" expanded="true" signature="134:711" ph="{...}" />
+                <marker date="1527866024208" expanded="true" signature="175:705" ph="{...}" />
+                <marker date="1527866024208" expanded="true" signature="267:695" ph="{...}" />
+                <marker date="1527866024208" expanded="true" signature="445:638" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Basket.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Basket/OrientedObject/Domain/Basket.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+              <folding>
+                <marker date="1527859882159" expanded="false" signature="6:59" ph="..." />
+                <marker date="1527859882159" expanded="true" signature="84:532" ph="{...}" />
+                <marker date="1527859882159" expanded="true" signature="110:518" ph="{...}" />
+                <marker date="1527859882159" expanded="true" signature="225:283" ph="{...}" />
+                <marker date="1527859882159" expanded="true" signature="321:512" ph="{...}" />
+                <marker date="1527859882159" expanded="true" signature="404:475" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Article.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Basket/OrientedObject/Domain/Article.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+              <folding>
+                <marker date="1527860103063" expanded="true" signature="23:352" ph="{...}" />
+                <marker date="1527860103063" expanded="true" signature="50:350" ph="{...}" />
+                <marker date="1527860103063" expanded="true" signature="188:270" ph="{...}" />
+                <marker date="1527860103063" expanded="true" signature="302:344" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasketLine.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Basket/OrientedObject/Domain/BasketLine.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding>
+                <marker date="1527859836937" expanded="true" signature="23:424" ph="{...}" />
+                <marker date="1527859836937" expanded="true" signature="53:422" ph="{...}" />
+                <marker date="1527859836937" expanded="true" signature="210:306" ph="{...}" />
+                <marker date="1527859836937" expanded="true" signature="338:416" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasketOperation.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Basket/BasketOperation.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <marker date="1527857498745" expanded="true" signature="51:550" ph="{...}" />
+                <marker date="1527857498745" expanded="true" signature="86:548" ph="{...}" />
+                <marker date="1527857498745" expanded="true" signature="237:301" ph="{...}" />
+                <marker date="1527857498745" expanded="true" signature="380:542" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -91,10 +146,10 @@
       <file leaf-file-name="ImperativeProgramming.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Basket/ImperativeProgramming.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="66" column="38" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
+            <state relative-caret-position="210">
+              <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
               <folding>
-                <marker date="1527759174123" expanded="true" signature="6:131" ph="..." />
+                <marker date="1527759174123" expanded="false" signature="6:131" ph="..." />
                 <marker date="1527759174123" expanded="true" signature="149:2712" ph="{...}" />
                 <marker date="1527759174123" expanded="true" signature="190:2710" ph="{...}" />
                 <marker date="1527759174123" expanded="true" signature="301:1802" ph="{...}" />
@@ -110,9 +165,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="article-database.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Basket/article-database.json">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="ArticleDatabaseJson.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Basket/OrientedObject/Infrastucture/ArticleDatabaseJson.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+              <folding>
+                <marker date="1527860197941" expanded="true" signature="6:131" ph="..." />
+                <marker date="1527860197941" expanded="true" signature="178:927" ph="{...}" />
+                <marker date="1527860197941" expanded="true" signature="217:925" ph="{...}" />
+                <marker date="1527860197941" expanded="true" signature="276:910" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -121,10 +186,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Basket/OrientedObject/Domain/Article.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Basket/OrientedObject/Domain/BasketLine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Basket/OrientedObject/Infrastucture/ArticleDatabaseJson.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Basket/OrientedObject/Domain/Basket.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Basket/BasketLineArticle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Basket/ImperativeProgramming.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Basket/BasketOperation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BasketTest/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BasketTest/BasketOperation_CalculateBasketAmoutShould.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Basket/OrientedObject/Infrastucture/BasketService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Basket/ArticleDatabase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6D85C908-D676-49C8-A469-C19A74522F33/ea/c0dc38f9/IEnumerable`1.cs" root0="SKIP_INSPECTION" />
   </component>
@@ -135,8 +206,14 @@
         <option value="$PROJECT_DIR$/Basket/Class1.cs" />
         <option value="$PROJECT_DIR$/Basket/ArticleDatabase.cs" />
         <option value="$PROJECT_DIR$/Basket/BasketLineArticle.cs" />
-        <option value="$PROJECT_DIR$/BasketTest/BasketOperation_CalculateBasketAmoutShould.cs" />
         <option value="$PROJECT_DIR$/Basket/ImperativeProgramming.cs" />
+        <option value="$PROJECT_DIR$/Basket/BasketOperation.cs" />
+        <option value="$PROJECT_DIR$/BasketTest/BasketOperation_CalculateBasketAmoutShould.cs" />
+        <option value="$PROJECT_DIR$/Basket/OrientedObject/Domain/BasketLine.cs" />
+        <option value="$PROJECT_DIR$/Basket/OrientedObject/Domain/Basket.cs" />
+        <option value="$PROJECT_DIR$/Basket/OrientedObject/Domain/Article.cs" />
+        <option value="$PROJECT_DIR$/Basket/OrientedObject/Infrastucture/ArticleDatabaseJson.cs" />
+        <option value="$PROJECT_DIR$/Basket/OrientedObject/Infrastucture/BasketService.cs" />
       </list>
     </option>
   </component>
@@ -147,9 +224,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+    <option name="x" value="950" />
+    <option name="width" value="979" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -172,20 +249,27 @@
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Basket (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="BasketTest" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Basket" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="OrientedObject" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Basket (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Basket" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="OrientedObject" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Domain" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Basket (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Basket" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="OrientedObject" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Infrastucture" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Basket (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="BasketTest" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Dependencies" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Basket (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="BasketTest" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Dependencies" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name=".NETCoreApp 2" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -224,12 +308,13 @@
       <updated>1525441824000</updated>
       <workItem from="1525441825879" duration="4413000" />
       <workItem from="1527751003578" duration="4531000" />
-      <workItem from="1527756982274" duration="3438000" />
+      <workItem from="1527756982274" duration="4037000" />
+      <workItem from="1527856531471" duration="5850000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12382000" />
+    <option name="totallyTimeSpent" value="18831000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -246,16 +331,15 @@
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4986577" weight="0.33048433" />
       <window_info anchor="right" id="Errors In Solution" order="3" weight="0.3295302" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.17718121" side_tool="true" visible="true" weight="0.3888889" />
-      <window_info active="true" anchor="bottom" id="Unit Tests" order="7" sideWeight="0.8228188" visible="true" weight="0.3888889" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.17785235" side_tool="true" visible="true" weight="0.3888889" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" sideWeight="0.82214767" visible="true" weight="0.3888889" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49932885" weight="0.32905984" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49932885" weight="0.32905984" />
       <window_info anchor="bottom" id="NuGet" order="7" sideWeight="0.4986577" weight="0.32905984" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22818792" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23154363" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.49798658" weight="0.32905984" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -266,6 +350,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.49798658" weight="0.32905984" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
@@ -312,10 +397,78 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basket/ArticleDatabase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
           <folding>
-            <marker date="1525441828195" expanded="true" signature="118:205" ph="{...}" />
-            <marker date="1525441828195" expanded="true" signature="179:199" ph="{...}" />
+            <marker date="1525442785886" expanded="true" signature="39:292" ph="{...}" />
+            <marker date="1525442785886" expanded="true" signature="74:290" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basket/BasketLineArticle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <folding>
+            <marker date="1525442895069" expanded="true" signature="16:188" ph="{...}" />
+            <marker date="1525442895069" expanded="true" signature="53:186" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basket/ImperativeProgramming.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="66" column="38" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
+          <folding>
+            <marker date="1527759174123" expanded="false" signature="6:131" ph="..." />
+            <marker date="1527759174123" expanded="true" signature="149:2712" ph="{...}" />
+            <marker date="1527759174123" expanded="true" signature="190:2710" ph="{...}" />
+            <marker date="1527759174123" expanded="true" signature="301:1802" ph="{...}" />
+            <marker date="1527759174123" expanded="true" signature="410:1760" ph="{...}" />
+            <marker date="1527759174123" expanded="true" signature="1192:1661" ph="{...}" />
+            <marker date="1527759174123" expanded="true" signature="1870:2704" ph="{...}" />
+            <marker date="1527759174123" expanded="true" signature="1904:2681" ph="{...}" />
+            <marker date="1527759174123" expanded="true" signature="1992:2086" ph="{...}" />
+            <marker date="1527759174123" expanded="true" signature="2181:2412" ph="{...}" />
+            <marker date="1527759174123" expanded="true" signature="2487:2584" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasketTest/BasketOperation_CalculateBasketAmoutShould.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="77" column="31" lean-forward="true" selection-start-line="77" selection-start-column="31" selection-end-line="77" selection-end-column="31" />
+          <folding>
+            <marker date="1527858042336" expanded="false" signature="6:240" ph="..." />
+            <marker date="1527858042336" expanded="true" signature="262:2370" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="340:2368" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="379:527" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="581:1922" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="607:1912" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="667:1897" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="722:1326" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="789:1303" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="896:1226" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="1381:1878" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="1448:1855" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="1555:1778" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="2058:2362" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasketTest/UnitTest1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -346,35 +499,30 @@
         <state relative-caret-position="1125">
           <caret line="75" column="64" selection-start-line="75" selection-start-column="64" selection-end-line="75" selection-end-column="64" />
           <folding>
-            <marker date="1527754482812" expanded="false" signature="6:197" ph="..." />
-            <marker date="1527754482812" expanded="true" signature="219:3563" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="297:3561" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="336:484" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="538:1879" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="564:1869" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="624:1854" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="679:1283" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="746:1260" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="853:1183" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="1338:1835" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="1405:1812" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="1512:1735" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="2007:3555" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="2127:3477" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="2909:3378" ph="{...}" />
+            <marker date="1527858042336" expanded="false" signature="6:240" ph="..." />
+            <marker date="1527858042336" expanded="true" signature="262:2370" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="340:2368" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="379:527" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="581:1922" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="607:1912" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="667:1897" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="722:1326" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="789:1303" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="896:1226" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="1381:1878" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="1448:1855" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="1555:1778" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="2058:2362" ph="{...}" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basket/article-database.json">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Basket/ImperativeProgramming.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding>
-            <marker date="1527759174123" expanded="true" signature="6:131" ph="..." />
+            <marker date="1527759174123" expanded="false" signature="6:131" ph="..." />
             <marker date="1527759174123" expanded="true" signature="149:2712" ph="{...}" />
             <marker date="1527759174123" expanded="true" signature="190:2710" ph="{...}" />
             <marker date="1527759174123" expanded="true" signature="301:1802" ph="{...}" />
@@ -393,10 +541,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding>
-            <marker date="1525441828195" expanded="true" signature="118:205" ph="{...}" />
-            <marker date="1525441828195" expanded="true" signature="179:199" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -434,22 +578,20 @@
         <state relative-caret-position="375">
           <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
           <folding>
-            <marker date="1527754482812" expanded="false" signature="6:197" ph="..." />
-            <marker date="1527754482812" expanded="true" signature="219:3563" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="297:3561" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="336:484" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="538:1879" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="564:1869" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="624:1854" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="679:1283" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="746:1260" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="853:1183" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="1338:1835" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="1405:1812" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="1512:1735" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="2007:3555" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="2127:3477" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="2909:3378" ph="{...}" />
+            <marker date="1527858042336" expanded="false" signature="6:240" ph="..." />
+            <marker date="1527858042336" expanded="true" signature="262:2370" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="340:2368" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="379:527" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="581:1922" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="607:1912" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="667:1897" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="722:1326" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="789:1303" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="896:1226" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="1381:1878" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="1448:1855" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="1555:1778" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="2058:2362" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -465,10 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <marker date="1525441828195" expanded="true" signature="118:205" ph="{...}" />
-            <marker date="1525441828195" expanded="true" signature="179:199" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -483,26 +621,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basket/BasketLineArticle.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-          <folding>
-            <marker date="1525442895069" expanded="true" signature="16:188" ph="{...}" />
-            <marker date="1525442895069" expanded="true" signature="53:186" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basket/article-database.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Basket/ImperativeProgramming.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="66" column="38" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
+        <state relative-caret-position="210">
+          <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
           <folding>
-            <marker date="1527759174123" expanded="true" signature="6:131" ph="..." />
+            <marker date="1527759174123" expanded="false" signature="6:131" ph="..." />
             <marker date="1527759174123" expanded="true" signature="149:2712" ph="{...}" />
             <marker date="1527759174123" expanded="true" signature="190:2710" ph="{...}" />
             <marker date="1527759174123" expanded="true" signature="301:1802" ph="{...}" />
@@ -517,27 +641,121 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Basket/OrientedObject/Infrastucture/ArticleDatabaseJson.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding>
+            <marker date="1527860197941" expanded="true" signature="6:131" ph="..." />
+            <marker date="1527860197941" expanded="true" signature="178:927" ph="{...}" />
+            <marker date="1527860197941" expanded="true" signature="217:925" ph="{...}" />
+            <marker date="1527860197941" expanded="true" signature="276:910" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BasketTest/BasketOperation_CalculateBasketAmoutShould.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="77" column="31" lean-forward="true" selection-start-line="77" selection-start-column="31" selection-end-line="77" selection-end-column="31" />
+        <state relative-caret-position="240">
+          <caret line="66" column="52" selection-start-line="66" selection-start-column="52" selection-end-line="66" selection-end-column="52" />
           <folding>
-            <marker date="1527754482812" expanded="false" signature="6:197" ph="..." />
-            <marker date="1527754482812" expanded="true" signature="219:3563" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="297:3561" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="336:484" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="538:1879" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="564:1869" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="624:1854" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="679:1283" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="746:1260" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="853:1183" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="1338:1835" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="1405:1812" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="1512:1735" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="2007:3555" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="2127:3477" ph="{...}" />
-            <marker date="1527754482812" expanded="true" signature="2909:3378" ph="{...}" />
+            <marker date="1527858042336" expanded="false" signature="6:240" ph="..." />
+            <marker date="1527858042336" expanded="true" signature="262:2370" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="340:2368" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="379:527" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="581:1922" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="607:1912" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="667:1897" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="722:1326" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="789:1303" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="896:1226" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="1381:1878" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="1448:1855" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="1555:1778" ph="{...}" />
+            <marker date="1527858042336" expanded="true" signature="2058:2362" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basket/BasketOperation.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <marker date="1527857498745" expanded="true" signature="51:550" ph="{...}" />
+            <marker date="1527857498745" expanded="true" signature="86:548" ph="{...}" />
+            <marker date="1527857498745" expanded="true" signature="237:301" ph="{...}" />
+            <marker date="1527857498745" expanded="true" signature="380:542" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basket/article-database.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basket/OrientedObject/Domain/Article.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <marker date="1527860103063" expanded="true" signature="23:352" ph="{...}" />
+            <marker date="1527860103063" expanded="true" signature="50:350" ph="{...}" />
+            <marker date="1527860103063" expanded="true" signature="188:270" ph="{...}" />
+            <marker date="1527860103063" expanded="true" signature="302:344" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basket/OrientedObject/Domain/Basket.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+          <folding>
+            <marker date="1527859882159" expanded="false" signature="6:59" ph="..." />
+            <marker date="1527859882159" expanded="true" signature="84:532" ph="{...}" />
+            <marker date="1527859882159" expanded="true" signature="110:518" ph="{...}" />
+            <marker date="1527859882159" expanded="true" signature="225:283" ph="{...}" />
+            <marker date="1527859882159" expanded="true" signature="321:512" ph="{...}" />
+            <marker date="1527859882159" expanded="true" signature="404:475" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basket/OrientedObject/Infrastucture/BasketService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+          <folding>
+            <marker date="1527866024208" expanded="true" signature="6:54" ph="..." />
+            <marker date="1527866024208" expanded="true" signature="101:713" ph="{...}" />
+            <marker date="1527866024208" expanded="true" signature="134:711" ph="{...}" />
+            <marker date="1527866024208" expanded="true" signature="175:705" ph="{...}" />
+            <marker date="1527866024208" expanded="true" signature="267:695" ph="{...}" />
+            <marker date="1527866024208" expanded="true" signature="445:638" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basket/BasketLineArticle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding>
+            <marker date="1525442895069" expanded="true" signature="16:188" ph="{...}" />
+            <marker date="1525442895069" expanded="true" signature="53:186" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basket/OrientedObject/Domain/BasketLine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <marker date="1527859836937" expanded="true" signature="23:424" ph="{...}" />
+            <marker date="1527859836937" expanded="true" signature="53:422" ph="{...}" />
+            <marker date="1527859836937" expanded="true" signature="210:306" ph="{...}" />
+            <marker date="1527859836937" expanded="true" signature="338:416" ph="{...}" />
           </folding>
         </state>
       </provider>

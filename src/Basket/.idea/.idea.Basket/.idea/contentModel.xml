@@ -11,6 +11,7 @@
         <e p="ArticleDatabase.cs" t="Include" />
         <e p="Basket.csproj" t="IncludeRecursive" />
         <e p="BasketLineArticle.cs" t="Include" />
+        <e p="BasketOperation.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="ImperativeProgramming.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
@@ -18,6 +19,17 @@
             <e p="netstandard2.0" t="Include">
               <e p="Basket.AssemblyInfo.cs" t="Include" />
             </e>
+          </e>
+        </e>
+        <e p="OrientedObject" t="Include">
+          <e p="Domain" t="Include">
+            <e p="Article.cs" t="Include" />
+            <e p="Basket.cs" t="Include" />
+            <e p="BasketLine.cs" t="Include" />
+          </e>
+          <e p="Infrastucture" t="Include">
+            <e p="ArticleDatabaseJson.cs" t="Include" />
+            <e p="BasketService.cs" t="Include" />
           </e>
         </e>
       </e>
